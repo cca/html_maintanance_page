@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+.sr-only,
+svg:not(:root) {
+    overflow: hidden
+}
+
+hr,
+img {
+    border: 0
+}
+
+body,
+figure {
+    margin: 0
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse,
+.pre-scrollable {
+    max-height: 340px
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+b,
+optgroup,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    margin: .67em 0
+}
+
+/*! edited */
+
+.img-thumbnail,
+body {
+    background-color: #fff
+}
+
+.popover,
+.tooltip,
+body {
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+*,
+:after,
+:before {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333
+}
+
+a {
+    color: #2b7bb8;
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    color: #2b7bb8;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.h1,
+h1 {
+    font-size: 36px
+}
+
+.h2,
+h2 {
+    font-size: 30px
+}
+
+.h3,
+h3 {
+    font-size: 24px
+}
+
+.h4,
+h4 {
+    font-size: 18px
+}
+
+.h5,
+h5 {
+    font-size: 14px
+}
+
+.h6,
+h6 {
+    font-size: 12px
+}
+
+p {
+    margin: 0 0 10px
+}
+
+@media (min-width:768px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        clear: left;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+    .dl-horizontal dd {
+        margin-left: 180px
+    }
+    .container {
+        width: 750px
+    }
+}
+
+.aup,
+.btn-group-vertical>.btn-group:after,
+.btn-toolbar:after,
+.clearfix:after,
+.container-fluid:after,
+.container:after,
+.dl-horizontal dd:after,
+.form-horizontal .form-group:after,
+.modal-footer:after,
+.nav:after,
+.navbar-collapse:after,
+.navbar-header:after,
+.navbar:after,
+.pager:after,
+.panel-body:after,
+.row:after {
+    clear: both
+}
+
+.container,
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+#footer,
+#header,
+.carousel-caption,
+.carousel-control,
+.cas-icons a {
+    text-align: center
+}
+
+.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+    content: " ";
+    display: table
+}
+
+html {
+    background: url(CAS_login_bg.jpg) 50% no-repeat fixed;
+    background-size: cover
+}
+
+body {
+    background: 0 0
+}
+
+.cas-icons {
+    margin: 20px 30px 0
+}
+
+.cas-icons [data-icon]:before {
+    content: attr(data-icon)
+}
+
+#header h1,
+.more-info h4 {
+    text-transform: uppercase
+}
+
+.cas-icons a {
+    display: inline-block;
+    width: 32%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #aaa
+}
+
+.cas-icons a:hover {
+    color: #005776
+}
+
+.container {
+    max-width: 550px
+}
+
+#header {
+    background-color: rgba(0, 87, 118, .5);
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20217%2033.23%22%20width%3D%22300%22%20height%3D%2248%22%20id%3D%22cca-logo%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20.a%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3A%20%23f1f2f2%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ctitle%3ECCA%20Logo%3C%2Ftitle%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M88.42%2C124.61a16.62%2C16.62%2C0%2C1%2C1%2C0-33.23%2C15.76%2C15.76%2C0%2C0%2C1%2C9.24%2C2.67v6.12c-3.28-2.9-5.88-4.06-9.39-4.06-6.65%2C0-11.32%2C5-11.32%2C12s4.59%2C11.7%2C11.32%2C11.7c3.66%2C0%2C6.11-1%2C9.47-4v6a16.16%2C16.16%2C0%2C0%2C1-9.32%2C2.75%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M124.9%2C124.61a16.62%2C16.62%2C0%2C1%2C1%2C0-33.23%2C15.8%2C15.8%2C0%2C0%2C1%2C9.24%2C2.67v6.12c-3.3-2.9-5.89-4.06-9.39-4.06-6.67%2C0-11.32%2C5-11.32%2C12s4.58%2C11.7%2C11.32%2C11.7c3.65%2C0%2C6.1-1%2C9.46-4v6a16.16%2C16.16%2C0%2C0%2C1-9.31%2C2.76%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20class%3D%22a%22%20points%3D%2280.07%200.89%2077.3%205.74%2097.15%205.74%2097.15%2032.43%20102.26%2032.43%20102.26%200.89%2080.07%200.89%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M187.75%2C107.27a2.78%2C2.78%2C0%2C0%2C0%2C2.82%2C2.84%2C2.89%2C2.89%2C0%2C0%2C0%2C2.34-1.15l1.1%2C1a4.35%2C4.35%2C0%2C0%2C1-3.47%2C1.58%2C4.25%2C4.25%2C0%2C1%2C1%2C0-8.51%2C4.3%2C4.3%2C0%2C0%2C1%2C3%2C1.18l-1%2C1.09a2.83%2C2.83%2C0%2C0%2C0-2-.85A2.76%2C2.76%2C0%2C0%2C0%2C187.75%2C107.27Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M200.67%2C111.41H199.2v-.46a2.4%2C2.4%2C0%2C0%2C1-1.59.58%2C2.88%2C2.88%2C0%2C0%2C1-2.16-1%2C3.07%2C3.07%2C0%2C0%2C1-.73-2%2C2.88%2C2.88%2C0%2C0%2C1%2C2.81-3%2C2.63%2C2.63%2C0%2C0%2C1%2C1.68.58v-.46h1.48Zm-1.54-3.72a1.76%2C1.76%2C0%2C0%2C0-1.42-.71%2C1.57%2C1.57%2C0%2C0%2C0%2C0%2C3.13%2C1.68%2C1.68%2C0%2C0%2C0%2C1.38-.71Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M204%2C111.41H202.5V103H204Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M206.63%2C102.66a1%2C1%2C0%2C1%2C1-1%2C1A1%2C1%2C0%2C0%2C1%2C206.63%2C102.66Zm.77%2C8.74h-1.54v-5.73h1.54Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M213.12%2C104.32a2%2C2%2C0%2C0%2C0-.46-.06%2C1.07%2C1.07%2C0%2C0%2C0-.86.33%2C1.33%2C1.33%2C0%2C0%2C0-.21.91v.18h1.77V107h-1.77v4.43h-1.54V107h-1.48v-1.3h1.48v-.24a2.41%2C2.41%2C0%2C0%2C1%2C.61-1.87%2C2.51%2C2.51%2C0%2C0%2C1%2C1.78-.67%2C3.48%2C3.48%2C0%2C0%2C1%2C.91.11Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M217%2C105.56a3%2C3%2C0%2C1%2C1-3%2C3A3%2C3%2C0%2C0%2C1%2C217%2C105.56Zm0%2C4.55a1.57%2C1.57%2C0%2C1%2C0-1.51-1.56A1.5%2C1.5%2C0%2C0%2C0%2C217%2C110.11Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M224.84%2C107a2.13%2C2.13%2C0%2C0%2C0-.56-.06%2C1.7%2C1.7%2C0%2C0%2C0-1.39.83v3.6h-1.54v-5.73h1.48v.58a2.14%2C2.14%2C0%2C0%2C1%2C1.67-.7%2C3.12%2C3.12%2C0%2C0%2C1%2C.52%2C0Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M226.26%2C111.41v-5.73h1.48v.46a2.53%2C2.53%2C0%2C0%2C1%2C1.62-.58%2C2.58%2C2.58%2C0%2C0%2C1%2C2%2C.92%2C2.89%2C2.89%2C0%2C0%2C1%2C.59%2C2v2.92h-1.54v-3a1.38%2C1.38%2C0%2C0%2C0-.34-1.07%2C1.21%2C1.21%2C0%2C0%2C0-.86-.32%2C1.83%2C1.83%2C0%2C0%2C0-1.39.71v3.72Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M234.41%2C102.66a1%2C1%2C0%2C1%2C1-1%2C1A1%2C1%2C0%2C0%2C1%2C234.41%2C102.66Zm.77%2C8.74h-1.54v-5.73h1.54Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M242.49%2C111.41H241v-.46a2.4%2C2.4%2C0%2C0%2C1-1.59.58%2C2.88%2C2.88%2C0%2C0%2C1-2.16-1%2C3.07%2C3.07%2C0%2C0%2C1-.73-2%2C2.88%2C2.88%2C0%2C0%2C1%2C2.81-3%2C2.63%2C2.63%2C0%2C0%2C1%2C1.68.58v-.46h1.48ZM241%2C107.69a1.76%2C1.76%2C0%2C0%2C0-1.42-.71%2C1.57%2C1.57%2C0%2C0%2C0%2C0%2C3.13%2C1.68%2C1.68%2C0%2C0%2C0%2C1.38-.71Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M248.63%2C107.27a2.78%2C2.78%2C0%2C0%2C0%2C2.82%2C2.84A2.89%2C2.89%2C0%2C0%2C0%2C253.8%2C109l1.1%2C1a4.35%2C4.35%2C0%2C0%2C1-3.47%2C1.58%2C4.25%2C4.25%2C0%2C1%2C1%2C0-8.51%2C4.3%2C4.3%2C0%2C0%2C1%2C3%2C1.18l-1%2C1.09a2.83%2C2.83%2C0%2C0%2C0-2-.85A2.76%2C2.76%2C0%2C0%2C0%2C248.63%2C107.27Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M258.65%2C105.56a3%2C3%2C0%2C1%2C1-3%2C3A3%2C3%2C0%2C0%2C1%2C258.65%2C105.56Zm0%2C4.55a1.57%2C1.57%2C0%2C1%2C0-1.51-1.56A1.5%2C1.5%2C0%2C0%2C0%2C258.65%2C110.11Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M264.59%2C111.41h-1.54V103h1.54Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M267.95%2C111.41h-1.54V103h1.54Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M274.65%2C110.5a3.11%2C3.11%2C0%2C0%2C1-2.35%2C1%2C2.87%2C2.87%2C0%2C0%2C1-3-3%2C2.83%2C2.83%2C0%2C0%2C1%2C2.79-3%2C2.78%2C2.78%2C0%2C0%2C1%2C2.7%2C2.93%2C2.51%2C2.51%2C0%2C0%2C1%2C0%2C.44h-4a1.5%2C1.5%2C0%2C0%2C0%2C1.55%2C1.36%2C2%2C2%2C0%2C0%2C0%2C1.44-.66Zm-1.43-2.69a1.14%2C1.14%2C0%2C0%2C0-1.13-1%2C1.24%2C1.24%2C0%2C0%2C0-1.23%2C1Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M281.75%2C111.09a3.46%2C3.46%2C0%2C0%2C1-.52%2C2.13%2C3%2C3%2C0%2C0%2C1-2.54%2C1.15%2C3.76%2C3.76%2C0%2C0%2C1-2.75-1.18l1-1a2.32%2C2.32%2C0%2C0%2C0%2C1.78.83%2C1.48%2C1.48%2C0%2C0%2C0%2C1.17-.46%2C1.84%2C1.84%2C0%2C0%2C0%2C.35-1.35V111a2.42%2C2.42%2C0%2C0%2C1-1.54.52%2C2.91%2C2.91%2C0%2C0%2C1-2.17-1%2C3.07%2C3.07%2C0%2C0%2C1-.72-2%2C2.88%2C2.88%2C0%2C0%2C1%2C2.81-3%2C2.63%2C2.63%2C0%2C0%2C1%2C1.68.58v-.46h1.48Zm-1.54-3.4a1.76%2C1.76%2C0%2C0%2C0-1.42-.71%2C1.57%2C1.57%2C0%2C0%2C0%2C0%2C3.13%2C1.68%2C1.68%2C0%2C0%2C0%2C1.38-.71Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M288.46%2C110.5a3.11%2C3.11%2C0%2C0%2C1-2.35%2C1%2C2.87%2C2.87%2C0%2C0%2C1-3-3%2C2.83%2C2.83%2C0%2C0%2C1%2C2.79-3%2C2.78%2C2.78%2C0%2C0%2C1%2C2.7%2C2.93%2C2.51%2C2.51%2C0%2C0%2C1%2C0%2C.44h-4a1.5%2C1.5%2C0%2C0%2C0%2C1.55%2C1.36%2C2%2C2%2C0%2C0%2C0%2C1.44-.66ZM287%2C107.8a1.14%2C1.14%2C0%2C0%2C0-1.13-1%2C1.24%2C1.24%2C0%2C0%2C0-1.23%2C1Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M189.26%2C118a3%2C3%2C0%2C1%2C1-3%2C3A3%2C3%2C0%2C0%2C1%2C189.26%2C118Zm0%2C4.55a1.57%2C1.57%2C0%2C1%2C0-1.51-1.56A1.5%2C1.5%2C0%2C0%2C0%2C189.26%2C122.53Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M197.45%2C116.74a2%2C2%2C0%2C0%2C0-.46-.06%2C1.07%2C1.07%2C0%2C0%2C0-.86.33%2C1.33%2C1.33%2C0%2C0%2C0-.21.91v.18h1.77v1.3h-1.77v4.43h-1.54V119.4H192.9v-1.3h1.48v-.24A2.41%2C2.41%2C0%2C0%2C1%2C195%2C116a2.51%2C2.51%2C0%2C0%2C1%2C1.78-.67%2C3.48%2C3.48%2C0%2C0%2C1%2C.91.11Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M206.5%2C123.83a3.77%2C3.77%2C0%2C0%2C1-1%2C.12%2C2.36%2C2.36%2C0%2C0%2C1-2-.83%2C2.69%2C2.69%2C0%2C0%2C1-.43-1.71v-2h-1.59v-1.3h1.59V116.5h1.54v1.59h1.89v1.3h-1.89v2.19a1.05%2C1.05%2C0%2C0%2C0%2C.19.72%2C1%2C1%2C0%2C0%2C0%2C.78.28%2C3.74%2C3.74%2C0%2C0%2C0%2C.63-.06Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M209.39%2C123.83h-1.54v-8.39h1.54v3.07a2.54%2C2.54%2C0%2C0%2C1%2C1.56-.53%2C2.58%2C2.58%2C0%2C0%2C1%2C2%2C.92%2C2.89%2C2.89%2C0%2C0%2C1%2C.59%2C2v2.92H212v-3a1.38%2C1.38%2C0%2C0%2C0-.34-1.07%2C1.21%2C1.21%2C0%2C0%2C0-.86-.32%2C1.83%2C1.83%2C0%2C0%2C0-1.39.71Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M220.12%2C122.92a3.11%2C3.11%2C0%2C0%2C1-2.35%2C1%2C2.87%2C2.87%2C0%2C0%2C1-3-3%2C2.83%2C2.83%2C0%2C0%2C1%2C2.79-3%2C2.78%2C2.78%2C0%2C0%2C1%2C2.71%2C2.93%2C2.51%2C2.51%2C0%2C0%2C1%2C0%2C.44h-4a1.5%2C1.5%2C0%2C0%2C0%2C1.55%2C1.36%2C2%2C2%2C0%2C0%2C0%2C1.44-.66Zm-1.43-2.69a1.14%2C1.14%2C0%2C0%2C0-1.13-1%2C1.24%2C1.24%2C0%2C0%2C0-1.23%2C1Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M224%2C123.83l3.54-8.27h1.12l3.54%2C8.27h-1.67l-.78-1.83h-3.32l-.78%2C1.83Zm3-3.25h2.1l-1.05-2.45Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M236.51%2C119.45a2.13%2C2.13%2C0%2C0%2C0-.56-.06%2C1.7%2C1.7%2C0%2C0%2C0-1.39.83v3.6H233V118.1h1.48v.58a2.15%2C2.15%2C0%2C0%2C1%2C1.67-.7%2C3.12%2C3.12%2C0%2C0%2C1%2C.52%2C0Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M242.48%2C123.83a3.77%2C3.77%2C0%2C0%2C1-1%2C.12%2C2.36%2C2.36%2C0%2C0%2C1-2-.83%2C2.69%2C2.69%2C0%2C0%2C1-.43-1.71v-2h-1.59v-1.3h1.59V116.5h1.54v1.59h1.89v1.3h-1.89v2.19a1.05%2C1.05%2C0%2C0%2C0%2C.19.72%2C1%2C1%2C0%2C0%2C0%2C.78.28%2C3.74%2C3.74%2C0%2C0%2C0%2C.63-.06Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M244.25%2C122.08a2.41%2C2.41%2C0%2C0%2C0%2C1.57.57c.41%2C0%2C.73-.2.73-.48%2C0-.86-2.78-.56-2.78-2.4A2%2C2%2C0%2C0%2C1%2C246%2C118a3.55%2C3.55%2C0%2C0%2C1%2C1.94.58l-.72%2C1.11a1.93%2C1.93%2C0%2C0%2C0-1.1-.39c-.43%2C0-.78.17-.78.46%2C0%2C.74%2C2.78.45%2C2.78%2C2.43%2C0%2C1.1-1.07%2C1.77-2.28%2C1.77a4%2C4%2C0%2C0%2C1-2.3-.77Z%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20class%3D%22a%22%20d%3D%22M155.47%2C102.74a10.94%2C10.94%2C0%2C1%2C0%2C10.94%2C10.94%2C11%2C11%2C0%2C0%2C0-10.94-10.94m0%2C17.43a6.49%2C6.49%2C0%2C1%2C1%2C6.44-6.49%2C6.49%2C6.49%2C0%2C0%2C1-6.44%2C6.49%22%20transform%3D%22translate%28-71.6%20-91.39%29%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 54%;
+    color: #fff;
+    height: 120px;
+    padding-top: 20px
+}
+
+#header h1 {
+    font-size: 1.2em;
+    font-weight: 200;
+    letter-spacing: .42em;
+    margin-top: 12px
+}
+
+#footer p,
+.reset-password {
+    font-size: .9em
+}
+
+#footer {
+    padding-top: 10px;
+    background-color: rgba(0, 87, 118, .5);
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 0;
+    border-radius: 0 0 5px 5px;
+    background-clip: padding-box
+}
+
+#footer p {
+    color: #fff;
+    font-weight: 200
+}
+
+#content {
+    padding: 20px 30px;
+    background-color: #ddd
+}
+
+#content h2 {
+    font-size: 1.5em
+}
+
+svg {
+    height: 80px;
+    width: 80px
+}
+
+svg.filter {
+    height: 0;
+    width: 0
+}
+
+.cas-icons a:hover circle {
+    fill: #fff
+}
+
+.cas-icons a:hover circle.path,
+.cas-icons a:hover path {
+    fill: #005776
+}
+
+@media all and (max-width:550px) {
+    #header {
+        height: 90px;
+        padding-top: 11px;
+        background-size: 70%
+    }
+    .container {
+        padding: 0 10px
+    }
+    #content {
+        padding: 8px 20px
+    }
+    #content.duo_form {
+        padding: 0 !important
+    }
+    form#duo_form {
+        padding: 0
+    }
+    form {
+        padding: 8px 0 0
+    }
+    .more-info {
+        padding: 20px
+    }
+    .more-info-close {
+        right: 0
+    }
+    #footer p {
+        font-size: .76em
+    }
+    .cas-icons {
+        margin: 10px 0 0
+    }
+    svg {
+        height: 70px;
+        width: 70px
+    }
+}
